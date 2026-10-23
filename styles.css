@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: pink;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+}
+
+.navigation-bar {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.projects {
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.projects > div {
+  height: 50px;
+  background: darkred;
+  flex: 0 1 30%;
+}
