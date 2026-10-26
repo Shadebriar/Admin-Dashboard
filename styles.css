@@ -1,7 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
   background-color: pink;
+  height: 100%;
 }
 
 .sidebar {
@@ -16,7 +23,7 @@
 }
 
 .projects {
-    background: orange;
+    background: darkorange;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -25,7 +32,11 @@
 }
 
 .projects > div {
-  height: 50px;
-  background: darkred;
+  padding: 20px;
+  background: darkorchid;
   flex: 0 1 30%;
+}
+
+.information {
+    background: darkred;
 }
