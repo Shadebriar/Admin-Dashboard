@@ -22,9 +22,15 @@ html, body {
     padding: 10px;
 }
 
+.dashboard-content{
+    display: flex;
+    flex-direction: row;
+}
+
 .projects {
     background: darkorange;
     display: flex;
+    flex: 3;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
@@ -39,4 +45,16 @@ html, body {
 
 .information {
     background: darkred;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.information > div {
+  padding: 20px;
+  background: yellow;
 }
