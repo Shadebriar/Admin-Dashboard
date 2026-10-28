@@ -11,6 +11,11 @@ html, body {
   height: 100%;
 }
 
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -18,8 +23,31 @@ html, body {
 }
 
 .navigation-bar {
+    display: flex;
+    flex-direction: column;
     background-color: lightgreen;
+    gap: 10px;
     padding: 10px;
+}
+
+.header-top {
+    display: flex;
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-bottom button {
+    color: white;
+    background-color: rgb(0, 170, 255);
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
 }
 
 .dashboard-content{
