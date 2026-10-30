@@ -60,29 +60,56 @@ html, body {
 .navigation-bar {
     display: flex;
     flex-direction: column;
-    background-color: lightgreen;
+    background-color: #ffffff;
     gap: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header-top {
     display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 50%;
+    border-radius: 20px;
+    background-color: #e2e8f0;
+    border: none;
 }
 
 .header-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.username {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.account-icon {
+    width: 60px;
+    height: 60px;
 }
 
 .header-bottom button {
+    flex: 1;
+    padding: 10px 30px;
+    border-radius: 20px;
     color: white;
-    background-color: rgb(0, 170, 255);
+    background-color: #1992d4;
+    border: none;
 }
 
 .header-buttons {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    padding-right: 40px;
+    gap: 30px;
 }
 
 .dashboard-content{
@@ -91,7 +118,7 @@ html, body {
 }
 
 .projects {
-    background: darkorange;
+    background-color: #e2e8f0;
     display: flex;
     flex: 3;
     justify-content: space-between;
@@ -102,12 +129,13 @@ html, body {
 
 .projects > div {
   padding: 20px;
-  background: darkorchid;
+  background-color: darkorchid;
   flex: 0 1 30%;
+  border-radius: 20px;
 }
 
 .information {
-    background: darkred;
+    background-color: #e2e8f0;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -119,5 +147,6 @@ html, body {
 
 .information > div {
   padding: 20px;
-  background: yellow;
+  border-radius: 20px;
+  background-color: yellow;
 }
