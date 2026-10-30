@@ -6,7 +6,7 @@ html, body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   background-color: pink;
   height: 100%;
 }
@@ -19,7 +19,42 @@ html, body {
 .sidebar {
     display: flex;
     flex-direction: column;
-    background-color: lightskyblue;
+    background-color: #1992d4;
+    padding: 20px;
+    gap: 30px;
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.bar-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bar-secondary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
 }
 
 .navigation-bar {
